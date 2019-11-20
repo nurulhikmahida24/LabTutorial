@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example of Checkbox"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:text="Do you like android programing?" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkBox"
+        android:layout_alignLeft="@+id/checkBox"
+        android:checked="false"
+        android:text="Do you like java programing?" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="39dp"
+        android:text="CBD Class PNJ"
+        android:textColor="#ff87ff09"
+        android:textSize="30dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignEnd="@+id/textView1"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignParentBottom="true"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:text="Cancel" />
+
+    <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageButton"
+    android:src="@drawable/ic_launcher"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"/>
+
+</RelativeLayout>
