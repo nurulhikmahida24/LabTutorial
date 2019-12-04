@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ApplicationDataStorage</string>
+    <string name="empty_list_text">emptylist</string>
+    <string name="add_record">menu</string>
+    <string name="enter_nama">enternama</string>
+    <string name="enter_kelas">enterkelas</string>
+    <string name="btn_update">update</string>
+    <string name="btn_delete">delete</string>
+</resources>
